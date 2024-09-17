@@ -9,3 +9,5 @@ Pluggins recomendados :
 Material icon 
 Ionic
 Ionic snippets 
+
+Links del apartado web: https://github.com/shunnaldo/Portafolio-web
