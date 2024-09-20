@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 import { AngularFireModule } from '@angular/fire/compat';
-
+import { environment } from 'src/environments/environment.prod';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
