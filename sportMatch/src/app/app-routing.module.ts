@@ -10,7 +10,27 @@ const routes: Routes = [
     path: '',
     redirectTo: 'home',
     pathMatch: 'full'
+  },  {
+    path: 'inicio-sesion',
+    loadChildren: () => import('./inicio-sesion/inicio-sesion.module').then( m => m.InicioSesionPageModule)
   },
+  {
+    path: 'match',
+    loadChildren: () => import('./match/match.module').then( m => m.MatchPageModule)
+  },
+  {
+    path: 'principal',
+    loadChildren: () => import('./principal/principal.module').then( m => m.PrincipalPageModule)
+  },
+  {
+    path: 'registrar-usuario',
+    loadChildren: () => import('./registrar-usuario/registrar-usuario.module').then( m => m.RegistrarUsuarioPageModule)
+  },
+  {
+    path: 'team-crud',
+    loadChildren: () => import('./team-crud/team-crud.module').then( m => m.TeamCrudPageModule)
+  },
+
 ];
 
 @NgModule({

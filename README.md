@@ -11,3 +11,4 @@ Ionic
 Ionic snippets 
 
 Links del apartado web: https://github.com/shunnaldo/Portafolio-web
+#cambios por Marco Montero
